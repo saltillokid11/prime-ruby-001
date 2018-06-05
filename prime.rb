@@ -29,4 +29,3 @@ end
 #     i.next
 #   end
 # end
- puts prime?(337)
