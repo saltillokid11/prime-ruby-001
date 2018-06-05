@@ -21,7 +21,7 @@ def prime?(num)
     return false
   else
     (2..num-1).to_a.all? do |calc|
-      returnnum % calc != 0
+      return num % calc != 0
     end
   end
 end
