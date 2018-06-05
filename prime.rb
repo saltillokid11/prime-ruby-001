@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
   squareNum = Math.sqrt(num).ceil
-  myArr = (2..num-1).to_a
+  myArr = (2..num-1).to_a.all?
   myArr.each do |var|
     if num < 2
       puts "False less than 2: #{var}"
