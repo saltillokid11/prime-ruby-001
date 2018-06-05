@@ -7,12 +7,10 @@ def prime?(num)
       puts "False less than 2: #{var}"
       return false
     else
-      if squareNum.all? % var == 0
-        puts "True: #{var}"
-        return true
+        return true if squareNum.all? % var == 0
       else
         puts "False: #{var}"
-        # return false
+        return false
       end
     end
   end
